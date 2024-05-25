@@ -1,0 +1,143 @@
+:root {
+  /* Colores principales */
+  --color-primary: #007bff;
+  --color-secondary: #6c757d;
+  --color-success: #28a745;
+  --color-info: #17a2b8;
+  --color-warning: #ffc107;
+  --color-danger: #dc3545;
+  --color-light: #f8f9fa;
+  --color-dark: #343a40;
+
+  /* Colores de texto */
+  --color-text-primary: #212529;
+  --color-text-secondary: #6c757d;
+  --color-text-light: #ffffff;
+
+  /* Colores de fondo */
+  --color-background: #ffffff;
+  --color-background-secondary: #f8f9fa;
+  --color-background-dark: #343a40;
+
+  /* Tipografía */
+  --font-family-base: 'Helvetica Neue', Arial, sans-serif;
+  --font-size-base: 1rem;
+  /* 16px */
+  --font-size-sm: 0.875rem;
+  /* 14px */
+  --font-size-lg: 1.25rem;
+  /* 20px */
+  --line-height-base: 1.5;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+
+  /* Espaciados */
+  --spacing-xs: 0.25rem;
+  /* 4px */
+  --spacing-sm: 0.5rem;
+  /* 8px */
+  --spacing-md: 1rem;
+  /* 16px */
+  --spacing-lg: 1.5rem;
+  /* 24px */
+  --spacing-xl: 2rem;
+  /* 32px */
+
+  /* Bordes */
+  --border-radius-sm: 0.2rem;
+  /* 2px */
+  --border-radius-md: 0.25rem;
+  /* 4px */
+  --border-radius-lg: 0.3rem;
+  /* 6px */
+  --border-width: 1px;
+
+  /* Sombras */
+  --box-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --box-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --box-shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.2);
+
+  /* Anchos */
+  --container-width-sm: 540px;
+  --container-width-md: 720px;
+  --container-width-lg: 960px;
+  --container-width-xl: 1140px;
+
+  /* Transiciones */
+  --transition-speed: 0.3s;
+  --transition-ease: ease-in-out;
+
+  /* Altura y ancho */
+  --height-header: 60px;
+  --width-sidebar: 250px;
+
+  /* Z-index */
+  --z-index-dropdown: 1000;
+  --z-index-sticky: 1020;
+  --z-index-fixed: 1030;
+  --z-index-modal: 1040;
+  --z-index-popover: 1060;
+  --z-index-tooltip: 1070;
+}
+
+/* Ejemplo de uso de variables */
+body {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  color: var(--color-text-primary);
+  background-color: var(--color-background);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: var(--line-height-base);
+  font-weight: normal;
+}
+
+/* Asegura que todos los elementos tengan el mismo box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Elimina márgenes por defecto */
+body,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, ol, ul, figure,
+hr, fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+/* Asegura que las listas no tengan estilo por defecto y tengan el mismo padding */
+ol, ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Resetea enlaces para que no tengan subrayado ni color por defecto */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Asegura que las imágenes se adapten al contenedor */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Asegura que los elementos de formulario sean legibles y manejables */
+button,
+input,
+select,
+textarea {
+  line-height: 1.15;
+}
+
+/* Mejora la tipografía para una mejor legibilidad */
+body {
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+}
