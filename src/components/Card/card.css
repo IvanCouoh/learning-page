@@ -1,0 +1,116 @@
+@import url('../../styles.global.css');
+
+.card__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: var(--border-radius-xlg);
+    background-color: var(--color-background);
+    width: 330px;
+    padding: .60rem;
+}
+
+.container__image-image {
+    border-radius: var(--border-radius-xlg);
+}
+
+.card__head {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card__course-name {
+    color: var(--color-text-primary);
+    background-color: var(--color-secondary-op);
+    border-radius: var(--border-radius-lg);
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: max-content;
+}
+
+.active-dot {
+    background-color: var(--color-secondary);
+    width: 10px;
+    height: 10px;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.card__qualification {
+    display: flex;
+    gap: .2rem;
+    width: max-content;
+    justify-self: end;
+    padding: 0 .5rem;
+    background-color: var(--color-secondary);
+    border-radius: var(--border-radius-lg);
+    color: var(--color-text-light);
+}
+
+.card__qualification-icon {
+    size: 10px;
+}
+
+.subject__name {
+    font-weight: var(--font-weight-bold);
+}
+
+.subject__details {
+    display: flex;
+    gap: 1rem;
+}
+
+.subject__details-item {
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.subject__price {
+    font-weight: var(--font-weight-bold);
+}
+
+.subject__price-teacher {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #b4b4b4;
+    padding-top: 1rem;
+}
+
+.subject__teacher {
+    display: flex;
+    align-items: center;
+    gap: .85rem;
+}
+
+.subject__teacher-image {
+    position: relative;
+}
+
+.teacher__profile {
+    width: 55px;
+    border-radius: 50%;
+}
+
+.teacher__online-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--color-success);
+    position: absolute;
+    bottom: 8px;
+    right: -5px;
+}
+
+.teacher__name {
+    color: var(--color-secondary);
+    font-weight: var(--font-weight-bold);
+}

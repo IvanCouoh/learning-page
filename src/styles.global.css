@@ -1,7 +1,8 @@
 :root {
   /* Colores principales */
-  --color-primary: #007bff;
-  --color-secondary: #6c757d;
+  --color-primary: #f189a2;
+  --color-secondary: #af6eeb;
+  --color-secondary-op: #af6eeb63;
   --color-success: #28a745;
   --color-info: #17a2b8;
   --color-warning: #ffc107;
@@ -50,6 +51,7 @@
   /* 4px */
   --border-radius-lg: 0.3rem;
   /* 6px */
+  --border-radius-xlg: 0.8rem;
   --border-width: 1px;
 
   /* Sombras */

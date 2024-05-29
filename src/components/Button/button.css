@@ -1,0 +1,43 @@
+@import url('../../styles.global.css');
+
+.btn {
+    padding: .5rem 1rem;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__primary {
+    background: linear-gradient(356deg, var(--color-primary) 0%, var(--color-secondary) 75%);
+    color: var(--color-text-light);
+    border: none;
+}
+
+.btn__second {
+    border: 2px solid var(--color-primary);
+    background: var(--color-background);
+}
+
+.btn__icon {
+    border: none;
+    background: var(--color-background);
+    text-decoration: underline;
+}
+
+.btn__icon-bgr {
+    background: linear-gradient(356deg, var(--color-primary) 40%, var(--color-secondary) 75%);
+    border-radius: 50%;
+    color: var(--color-text-light);
+}
+
+.btn__icon-brd {
+    border-radius: 50%;
+    border: 1px solid var(--color-secondary);
+    margin-right: var(--spacing-sm);
+    padding: 3px 3px 0px 3px;
+}

@@ -1,0 +1,34 @@
+@import url('../../styles.global.css');
+
+.list__container {
+    display: flex;
+    gap: 1rem;
+}
+
+.list__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.list__container:nth-child(odd) .list__content-icon .icon__bgr {
+    background-color: var(--color-secondary);
+}
+
+.list__container:nth-child(even) .list__content-icon .icon__bgr {
+    background-color: var(--color-primary);
+}
+
+.list__content-icon {
+    font-size: var(--font-size-lg);
+}
+
+.icon__bgr {
+    border-radius: 50%;
+    padding: 0px 3px 0px 3px;
+    height: 40px;
+    width: 40px;
+}
+
+.list__content-title {
+    font-weight: var(--font-weight-bold);
+}
