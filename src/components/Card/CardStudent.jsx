@@ -13,8 +13,8 @@ const CardStudent = ({ personName = "", courseName = "", numStars, text }) => {
                 <img src={image} alt="Profile" className='card_student__image' />
                 <div>
                     <p className='personal_data-name'>{personName}</p>
-                    <p className='personal_data-course_name'>{courseName}</p>
-                    <span className='personal_data-stars'>{stars}</span>
+                    <p>{courseName}</p>
+                    <span>{stars}</span>
                 </div>
             </div>
             <div className='card_student__text'>
