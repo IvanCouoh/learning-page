@@ -1,0 +1,14 @@
+@import url('../../styles.global.css');
+
+.container__menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.container__logo-name {
+    font-weight: var(--font-weight-bold);
+}
+
+.container__incon_menu {}

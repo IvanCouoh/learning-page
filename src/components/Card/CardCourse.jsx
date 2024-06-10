@@ -1,17 +1,17 @@
 import React from 'react'
 import './card.css'
 
-const Card = ({ imageCourse, courseName, qualification, subject, classesNumber, studentsNumber, price, teacherName, teacherProfile }) => {
+const CardCourse = ({ imageCourse, courseName, qualification, subject, classesNumber, studentsNumber, price, teacherName, teacherProfile }) => {
     return (
         <>
-            <div className='card__container'>
+            <div className='card-course__container'>
                 <img src={imageCourse} alt='course image' className='container__image-image' />
-                <div className='card__head'>
-                    <div className='card__course-name'>
+                <div className='card-course__head'>
+                    <div className='card-course__course-name'>
                         <p className='active-dot'></p>
                         <p>{courseName}</p>
                     </div>
-                    <div className='card__qualification'>
+                    <div className='card-course__qualification'>
                         <span><box-icon type='solid' name='star' color='#ffff00' size='xs'></box-icon></span>
                         <p>{qualification}</p>
                     </div>
@@ -42,4 +42,4 @@ const Card = ({ imageCourse, courseName, qualification, subject, classesNumber, 
     )
 }
 
-export default Card
+export default CardCourse
