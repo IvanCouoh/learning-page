@@ -1,0 +1,104 @@
+@import url('../../styles.global.css');
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.main__information {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    justify-items: center;
+}
+
+.main__title {
+    text-align: center;
+    max-width: 370px;
+    min-width: 350px;
+    line-height: 3rem;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-x-lg);
+}
+
+.main__text {
+    text-align: center;
+    max-width: 300px;
+    line-height: 1rem;
+    font-size: var(--font-size-sm);
+}
+
+.main__actions {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.main__image {
+    min-width: 250px;
+    justify-self: center;
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        grid-template-columns: repeat(2, 1fr);
+        align-content: center;
+        height: auto;
+    }
+
+    .main__information {
+        grid-template-columns: repeat(1, max-content);
+        grid-template-rows: repeat(3, max-content);
+        align-content: center;
+        justify-items: left;
+    }
+
+    .main__title {
+        font-size: var(--font-size-xx-lg);
+        line-height: 3rem;
+        max-width: 400px;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    .main__text {
+        text-align: left;
+        max-width: 435px;
+    }
+
+    .main__actions {
+        gap: 3rem;
+    }
+
+    .main__image {
+        width: 100%;
+        height: 100%;
+        justify-self: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main__title {
+        font-size: 4rem;
+        line-height: 4rem;
+        max-width: 560px;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    .main__text {
+        text-align: left;
+        max-width: 435px;
+        line-height: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .main {
+        max-width: var(--container-width-xl);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

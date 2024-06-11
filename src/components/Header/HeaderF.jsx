@@ -10,7 +10,7 @@ const HeaderF = () => {
     }
 
     return (
-        <div className='header__container'>
+        <div className='space_pad'>
             <header>
                 <div className='container__menu'>
                     <h1 className='container__logo-name'>Etech.</h1>

@@ -28,9 +28,14 @@
   /* 14px */
   --font-size-lg: 1.25rem;
   /* 20px */
+  --font-size-x-lg: 2.75rem;
+  --font-size-xx-lg: 3rem;
+  --font-size-xxx-lg: 3.25rem;
   --line-height-base: 1.5;
   --font-weight-normal: 400;
   --font-weight-bold: 700;
+  --font-weight-bold: 700;
+  --font-weight-bolder: 900;
 
   /* Espaciados */
   --spacing-xs: 0.25rem;
@@ -80,9 +85,6 @@
   --z-index-modal: 1040;
   --z-index-popover: 1060;
   --z-index-tooltip: 1070;
-
-  /* Altura del header */
-  --header-h: 60px;
 }
 
 /* Ejemplo de uso de variables */
@@ -146,4 +148,8 @@ textarea {
 body {
   line-height: 1.6;
   font-family: Arial, sans-serif;
+}
+
+.space_pad {
+  padding: 0 1rem;
 }
