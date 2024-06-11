@@ -1,9 +1,7 @@
 import Button from './components/Button/Button';
 import List from './components/List/List';
 import CardCourse from './components/Card/CardCourse';
-// import Header from './components/Header/Header';
-import Header from './components/Card/CardStudent';
-
+import Header from './components/Header/HeaderF';
 import WebDesign from './assets/images/web-design.jpeg';
 import profile from './assets/images/profile.jpeg';
 import CardStudent from './components/Card/CardStudent';
@@ -13,8 +11,8 @@ function App() {
 
   return (
     <>
-      {/* <Header /> */}
-      <Button classBtn="btn btn__second" text={"Singn In"} />
+      <Header />
+      {/* <Button classBtn="btn btn__second" text={"Singn In"} />
       <Button classBtn="btn btn__primary" text={"Free trial"} />
       <Button classBtn="btn btn__icon" icon="<box-icon name='play' color='#fff' class='btn__icon-bgr'></box-icon>" text={"What's Etech?"} />
 
@@ -51,7 +49,7 @@ function App() {
         courseName='Web Developer'
         numStars={2}
         text='Enrolling in courses at this eLearning platform was a game-changer for me. Absolutely transformative experience!'
-      />
+      /> */}
     </>
 
   )

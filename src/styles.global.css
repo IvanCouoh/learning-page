@@ -80,6 +80,9 @@
   --z-index-modal: 1040;
   --z-index-popover: 1060;
   --z-index-tooltip: 1070;
+
+  /* Altura del header */
+  --header-h: 60px;
 }
 
 /* Ejemplo de uso de variables */
@@ -122,6 +125,7 @@ ol, ul {
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 /* Asegura que las imágenes se adapten al contenedor */
