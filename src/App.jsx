@@ -1,5 +1,6 @@
 import Header from './components/Header/HeaderF';
 import MainSection from './containers/MainSection/Section';
+import BrandsSection from './containers/Brands/Brands';
 
 
 import List from './components/List/List';
@@ -14,6 +15,7 @@ function App() {
     <>
       <Header />
       <MainSection />
+      <BrandsSection />
 
 
       {/* <Button classBtn="btn btn__second" text={"Singn In"} />

@@ -34,7 +34,6 @@
   --line-height-base: 1.5;
   --font-weight-normal: 400;
   --font-weight-bold: 700;
-  --font-weight-bold: 700;
   --font-weight-bolder: 900;
 
   /* Espaciados */
@@ -76,7 +75,6 @@
 
   /* Altura y ancho */
   --height-header: 60px;
-  --width-sidebar: 250px;
 
   /* Z-index */
   --z-index-dropdown: 1000;
@@ -132,6 +130,7 @@ a {
 
 /* Asegura que las imágenes se adapten al contenedor */
 img {
+  display: block;
   max-width: 100%;
   height: auto;
 }

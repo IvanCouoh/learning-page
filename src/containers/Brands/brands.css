@@ -1,0 +1,26 @@
+@import url('../../styles.global.css');
+
+.brands__container {
+    background: linear-gradient(356deg, var(--color-primary) 0%, var(--color-secondary) 75%);
+    color: var(--color-text-light);
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.brands__list {
+    display: flex;
+    gap: 2rem;
+    font-size: var(--font-size-lg);
+    justify-content: space-around;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    font-weight: var(--font-weight-bold);
+}
+
+@media screen and (min-width: 1280px) {
+    .brands__list {
+        max-width: 1280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
